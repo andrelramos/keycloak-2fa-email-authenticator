@@ -15,11 +15,13 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <lombok.version>1.18.34</lombok.version>
-        <keycloak.version>25.0.2</keycloak.version>
+        <keycloak.version>26.0.6</keycloak.version>
+        <auto-service.version>1.0.1</auto-service.version>
         <maven-jar.plugin.version>3.4.2</maven-jar.plugin.version>
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-server-spi</artifactId>
